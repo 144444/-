@@ -1,0 +1,46 @@
+#app {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  .select-wrapper input.select-dropdown {
+    font-size: 20px; 
+  }
+  ul>li span {
+  font-size: 20px;
+  }
+}
+.design {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  h4{
+  display: flex;
+  justify-content: center;
+  }
+  form {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+}
+.budget {
+  width: 400px;
+  .input-field>label {
+      font-size: 20px;
+    }
+      input[type=text]:not(.browser-default) {
+      font-size: 20px;
+    }
+
+}
+.wishes h4 {
+  display: flex;
+  justify-content: center;
+}
+.wishes .input-field>label {
+  font-size: 20px;
+}
+.wishes .input-field>textarea {
+  width: 600px;
+}
